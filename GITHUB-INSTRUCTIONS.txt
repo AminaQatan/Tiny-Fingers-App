@@ -1,0 +1,51 @@
+TINY FINGERS — GITHUB UPLOAD GUIDE
+Developed by: Ms. Amina Qatan
+
+A computer is easiest for uploading the complete folder structure.
+
+1. Download Tiny-Fingers-GitHub.zip and extract/unzip it.
+   On a Samsung phone: open My Files, find the ZIP in Downloads, tap it,
+   and use Extract. Folder upload is easiest from a computer browser.
+
+2. Sign in to GitHub and open https://github.com/new
+
+3. Repository name: tiny-fingers
+   Description: Interactive tracing and vocabulary learning for children.
+   Choose Private to keep the source code restricted to you.
+   Leave the initial README, .gitignore, and license options empty.
+   Select Create repository.
+
+4. On the empty repository page, choose uploading an existing file.
+   If the repository already has files, choose Add file > Upload files.
+
+5. Open the extracted Tiny-Fingers folder on your computer.
+   Drag all its contents into GitHub's upload area:
+   - the entire dist folder (keep every subfolder)
+   - README.md
+   - GITHUB-INSTRUCTIONS.txt
+   - check.mjs
+   - .gitignore (if visible)
+
+   Upload the extracted contents, not the ZIP itself. GitHub does not
+   automatically unpack ZIP files into a repository.
+   Before saving, check that the app is at dist/index.html and the images
+   are at dist/art-3d/. Do not flatten the folders.
+
+6. Add the commit message: Add Tiny Fingers application
+   Commit directly to the default branch for this initial upload.
+   Confirm the upload with Commit changes (or the displayed confirmation).
+
+7. Check the repository file list. It should include the dist folder,
+   README.md, GITHUB-INSTRUCTIONS.txt, and check.mjs.
+   Inside dist, check that index.html and art-3d are present.
+
+Your source code is now stored in GitHub. Creating a repository alone does
+not create a live website. The existing Tiny Fingers website is separate.
+
+TO RUN THE APP
+Extract the ZIP, then open dist/index.html in your browser. Tap an object
+to start sound. For local web-server instructions, read README.md.
+
+OFFICIAL GUIDANCE
+Create a repository: https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository
+Upload files: https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
