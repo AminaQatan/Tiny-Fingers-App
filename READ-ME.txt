@@ -1,0 +1,15 @@
+TINY FINGERS — PICTURE FIX
+
+1. Download and extract this ZIP.
+   On Samsung: My Files > Downloads > tap the ZIP > Extract.
+2. Open https://github.com/AminaQatan/Tiny-Fingers-App
+3. Select Add file > Upload files.
+4. Upload the extracted app.js file to the main repository folder,
+   beside index.html. Keep its name exactly app.js so it replaces
+   the old file. Do not upload the ZIP itself.
+5. Select Commit changes.
+6. After the GitHub Pages deployment finishes, refresh Tiny Fingers.
+
+The pictures are already uploaded. This corrected file lets the app
+load pictures both from the art-3d folder and from the main folder.
+No pictures or saved learning progress need to be removed.
