@@ -1,0 +1,27 @@
+{
+  "id": "./",
+  "name": "Tiny Fingers",
+  "short_name": "Tiny Fingers",
+  "description": "Trace letters, numbers and words, explore talking picture worlds, and learn through play. Developed by: Ms. Amina Qatan",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fffaf2",
+  "theme_color": "#fffaf2",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "tiny-fingers-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "tiny-fingers-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

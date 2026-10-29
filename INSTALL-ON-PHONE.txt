@@ -1,0 +1,31 @@
+TINY FINGERS - HOME SCREEN UPDATE
+Developed by: Ms. Amina Qatan
+
+This small update uses the original purple Tiny Fingers icon.
+It does not contain the complete application.
+
+1. Extract Tiny-Fingers-Home-Screen.zip in your phone's My Files app.
+2. Open https://github.com/AminaQatan/Tiny-Fingers-App
+3. Select Add file > Upload files.
+4. Upload these FIVE extracted files into the main repository folder:
+   index.html
+   manifest.webmanifest
+   tiny-fingers-192.png
+   tiny-fingers-512.png
+   tiny-fingers-180.png
+   Keep their exact names. Replace the existing index.html.
+   Upload the files themselves, not the ZIP or its containing folder.
+5. Select Commit changes. Wait for the latest Pages deployment to succeed:
+   https://github.com/AminaQatan/Tiny-Fingers-App/actions
+6. Open Google Chrome directly on your Samsung phone and visit:
+   https://aminaqatan.github.io/Tiny-Fingers-App/
+   Refresh the page after the update is published.
+7. Tap the three dots, then Add to Home screen (or Install and create shortcut),
+   then Install. Confirm the name Tiny Fingers and the purple icon.
+8. Launch Tiny Fingers using its icon on your home screen.
+
+If the browser only offers a shortcut or shows the old icon, check that
+GitHub Pages finished deploying, reload the page, and try again. If an old
+shortcut exists, remove that shortcut before adding the updated app.
+This update adds home-screen installation; offline operation is not added.
+Your existing app files and pictures should remain in the repository.
