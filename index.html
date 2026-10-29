@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-GB">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#fffaf2">
@@ -11,19 +11,20 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Tiny Fingers">
-  <link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v=detective1"><link rel="stylesheet" href="detective.css?v=detective1">
 </head>
 <body>
 <header class="topbar">
   <a class="brand" href="#lesson" aria-label="Tiny Fingers home"><span class="brand-mark">✳</span><span>tiny fingers<span class="brand-dot">.</span></span></a>
-  <nav aria-label="Main navigation"><button class="nav active" data-view="lesson"><span data-icon="world"></span>Let's explore</button><button class="nav" data-view="tracing"><span data-icon="pencil"></span>Tracing studio</button><button class="nav" data-view="stars"><span data-icon="star"></span>My stars</button></nav>
+  <nav aria-label="Main navigation"><button class="nav active" data-view="lesson"><span data-icon="world"></span>Let's explore</button><button class="nav" data-view="tracing"><span data-icon="pencil"></span>Tracing studio</button><button class="nav" data-view="detective"><span aria-hidden="true">🔦</span>Detective</button><button class="nav" data-view="stars"><span data-icon="star"></span>My stars</button></nav>
   <div class="header-actions"><span class="star-count" title="Stars earned"><span>★</span> <b id="starCount">0</b></span><button class="icon-button" id="soundToggle" aria-label="Turn sound off" title="Sound on"><span data-icon="sound"></span></button><button class="icon-button parent-button" id="parentButton" aria-label="Grown-up settings" title="Grown-ups"><span data-icon="settings"></span></button></div>
 </header>
 <main id="main"></main>
 <footer><span>Made for little hands & curious minds</span><span class="footer-flower">✳</span><span>A little practice. A big little win.</span><span class="creator-credit">Developed by: <strong>Ms. Amina Qatan</strong></span></footer>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 <div id="confetti" aria-hidden="true"></div>
-<dialog id="settings"><div class="dialog-top"><span class="eyebrow">GROWN-UP CORNER</span><button class="icon-button" id="closeSettings" aria-label="Close settings">✕</button></div><h2>A little help for<br>little learners.</h2><p>Explore a scene together, trace a word, then talk about a question. Follow your child's pace.</p><label class="setting-row">Voice speed<select id="voiceSpeed"><option value="0.5">Extra slow</option><option value="0.65">Slow & steady</option><option value="0.85">Gentle</option><option value="1">Natural</option></select></label><label class="setting-row">Tracing support<select id="traceSupport"><option value="easy">Little fingers · wider guide</option><option value="standard">Growing confidence · closer guide</option></select></label><label class="setting-row">Celebration motion<input type="checkbox" id="motionToggle"></label><p class="fine-print">English A–Z and a–z, numbers 0–100 plus custom numbers, and word practice. Pronunciation uses your device's English voice. Sound begins after a tap. Progress stays in this browser; no child's name or account is needed.</p><button class="text-button" id="resetProgress">Reset saved stars and progress</button><div id="resetConfirm" hidden><p>Clear all stars and lesson progress on this device?</p><button class="small-button" id="confirmReset">Yes, reset progress</button> <button class="text-button" id="cancelReset">Keep my stars</button></div></dialog>
+<dialog id="settings"><div class="dialog-top"><span class="eyebrow">GROWN-UP CORNER</span><button class="icon-button" id="closeSettings" aria-label="Close settings">✕</button></div><h2>A little help for<br>little learners.</h2><p>Explore a scene together, trace a word, then talk about a question. Follow your child's pace.</p><label class="setting-row">British English voice<select id="britishVoice"><option value="">Automatic · best British voice</option></select></label><p id="voiceStatus" class="voice-status" role="status"></p><button id="testBritishVoice" class="small-button voice-test">Listen to the British voice</button><label class="setting-row">Voice speed<select id="voiceSpeed"><option value="0.5">Extra slow</option><option value="0.65">Slow & steady</option><option value="0.85">Gentle</option><option value="1">Natural</option></select></label><label class="setting-row">Tracing support<select id="traceSupport"><option value="easy">Little fingers · wider guide</option><option value="standard">Growing confidence · closer guide</option></select></label><label class="setting-row">Celebration motion<input type="checkbox" id="motionToggle"></label><p class="fine-print">English A–Z and a–z, numbers 0–100 plus custom numbers, and word practice. Spoken lessons use British English with natural pitch. Voice quality depends on the British voices installed on your device. Celebration chimes remain musical. Sound begins after a tap. Progress stays in this browser; no child's name or account is needed.</p><button class="text-button" id="resetProgress">Reset saved stars and progress</button><div id="resetConfirm" hidden><p>Clear all stars and lesson progress on this device?</p><button class="small-button" id="confirmReset">Yes, reset progress</button> <button class="text-button" id="cancelReset">Keep my stars</button></div></dialog>
+<dialog id="myWords" aria-labelledby="myWordsTitle"></dialog>
 <dialog id="worldPicker" aria-labelledby="worldPickerTitle"></dialog>
-<script src="data.js"></script><script src="themes-art.js"></script><script src="themes.js"></script><script src="scenes.js"></script><script src="app.js"></script>
+<script src="data.js"></script><script src="themes-art.js"></script><script src="themes.js"></script><script src="scenes.js"></script><script src="speech.js?v=detective1"></script><script src="detective.js?v=detective1"></script><script src="app.js?v=detective1"></script>
 </body></html>
